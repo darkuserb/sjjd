@@ -21,8 +21,8 @@
 import os
 
 class Config:
-TOKEN=os.environ.get("tokenbot")
-WORKERS=config.get("workers", 32)
+TOKEN = os.environ.get("tokenbot")
+WORKERS = config.get("workers", 32)
 ADMIN_LIST = os.environ.get("admin", None)
 OPEN_LOBBY = config.get("open_lobby", True)
 ENABLE_TRANSLATIONS = config.get("enable_translations", False)
