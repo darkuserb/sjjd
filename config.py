@@ -18,14 +18,11 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 
-import json
+import os
 
-with open("config.json","r") as f:
-    config = json.loads(f.read())
-
-TOKEN=config.get("token")
+TOKEN=os.environ.get("tokenbot")
 WORKERS=config.get("workers", 32)
-ADMIN_LIST = config.get("admin_list", None)
+ADMIN_LIST = os.environ.get("admin", None)
 OPEN_LOBBY = config.get("open_lobby", True)
 ENABLE_TRANSLATIONS = config.get("enable_translations", False)
 DEFAULT_GAMEMODE = config.get("default_gamemode", "fast")
