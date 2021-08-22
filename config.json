@@ -1,6 +1,6 @@
 {
-    "token": "1742150614:AAH0mowD2JjzebN4rdwo7dclz-cEHzcG_28",
-    "admin_list": [0],
+    "token": "process.env.tokenbot",
+    "admin_list": [process.env.admin],
     "open_lobby": true,
     "enable_translations": false,
     "workers": 32,

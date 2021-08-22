@@ -1,0 +1,16 @@
+{
+    "name": "De'el UNOANSKUY",
+    "description": "UNOan lah masa nggak. Pake Telegram yak",
+    "repository": "https://github.com/daffadlini/deelunoanskuy",
+    "env": {
+        "tokenbot": {
+            "description": "Token Bot yang dipakai",
+            "required": true
+        },
+        "admin": {
+            "description": "Admin Bot",
+            "required": false
+        }
+    },
+
+}
