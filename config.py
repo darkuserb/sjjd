@@ -20,7 +20,6 @@
 
 import os
 
-class Config:
 TOKEN = os.environ.get("tokenbot")
 WORKERS = config.get("workers", 32)
 ADMIN_LIST = os.environ.get("admin", None)
