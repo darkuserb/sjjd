@@ -1,16 +1,17 @@
 {
-    "name": "De'el UNOANSKUY",
-    "description": "UNOan lah masa nggak. Pake Telegram yak",
-    "repository": "https://github.com/daffadlini/deelunoanskuy",
-    "env": {
-        "tokenbot": {
-            "description": "Token Bot yang dipakai",
-            "required": true
-        },
-        "admin": {
-            "description": "Admin Bot",
-            "required": false
-        }
+  "name": "De'el UNOANSKUY",
+  "description": "UNOan lah masa nggak. Pake Telegram yak",
+  "repository": "https://github.com/jane-doe/small-sharp-tool",
+  },
+  "env": {
+    "tokenbot": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
     },
+    "admin": {
+      "description": "The number of processes to run.",
+      "required": "false"
+    }
+  },
 
 }
