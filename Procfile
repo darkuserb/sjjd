@@ -1,1 +1,5 @@
-worker: /bin/sh -c python3\ bot.py
+build: 
+  docker:
+      worker: Dockerfile
+run:
+   worker: python3 bot.py
