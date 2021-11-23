@@ -9,7 +9,6 @@
     },
     "waiting_time": {
       "description": "Waiting time for bot to skip Default: 120",
-      "required": "true"
       "value": "120"
     },
     "admin": {
