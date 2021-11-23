@@ -2,7 +2,6 @@
   "name": "De'el UNOANSKUY",
   "description": "UNOan lah masa nggak. Pake Telegram yak",
   "repository": "https://github.com/jane-doe/small-sharp-tool",
-  },
   "env": {
     "tokenbot": {
       "description": "A secret key for verifying the integrity of signed cookies.",
