@@ -9,7 +9,7 @@
     },
     "admin": {
       "description": "The number of processes to run.",
-      "required": "false",
+      "required": "false"
     }
   }
 }
