@@ -4,12 +4,17 @@
   "repository": "https://github.com/daffadlini/deelunoanskuy",
   "env": {
     "tokenbot": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": "secret"
+      "description": "Bot Token from @BotFather",
+      "required": "true"
+    },
+    "waiting_time": {
+      "description": "Waiting time for bot to skip Default: 120",
+      "required": "true"
+      "value": "120"
     },
     "admin": {
       "description": "The number of processes to run.",
-      "required": "false"
+      "required": "true"
     }
   }
 }
