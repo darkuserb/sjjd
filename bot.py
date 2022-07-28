@@ -112,11 +112,10 @@ def kill_game(bot, update):
 
     game = games[-1]
 
-    if user_is_creator_or_admin(user, game, bot, chat):
-
-        try:
-            gm.end_game(chat, user)
-            send_async(bot, chat.id, text=__("Game ended!", multi=game.translate))
+    else:
+        send_async(bot, chat.id,
+                   text=_("tamam, dyandı"),
+                   reply_to_message_id=update.message.message_id)
 
         except NoGameInChatError:
             send_async(bot, chat.id,
